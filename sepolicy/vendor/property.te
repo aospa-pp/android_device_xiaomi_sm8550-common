@@ -1,3 +1,6 @@
 # Fingerprint
 vendor_public_prop(vendor_fp_prop)
 vendor_restricted_prop(vendor_fp_info_prop)
+
+# Power
+vendor_public_prop(vendor_power_prop)
