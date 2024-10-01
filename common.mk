@@ -58,7 +58,12 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Perf
 PRODUCT_PACKAGES += \
-    libqti-perfd-client
+    libqti-perfd-client \
+    android.hardware.power-service.xiaomi-libperfmgr
+
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/google/interfaces \
+    $(LOCAL_PATH)/google/pixel
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
