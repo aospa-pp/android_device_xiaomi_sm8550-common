@@ -56,6 +56,10 @@ TARGET_BOARD_PLATFORM := kalama
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Perf
+PRODUCT_PACKAGES += \
+    libqti-perfd-client
+
 # QTI components
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
