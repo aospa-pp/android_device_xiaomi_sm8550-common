@@ -67,12 +67,11 @@ TARGET_COMMON_QTI_COMPONENTS := \
     gps \
     init \
     overlay \
+    perf \
     telephony \
     usb \
     wfd \
     wlan
-
-TARGET_PROVIDES_POWERHAL := true
 
 TARGET_USE_AIDL_QTI_BT_AUDIO := true
 TARGET_USE_AIDL_QTI_HEALTH := true
